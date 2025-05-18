@@ -47,7 +47,13 @@ git clone https://github.com/shubhamg14-git/Batch-Aggregation-Coding-Challenge.g
     Place your input (weather_data.csv) file in the input_data folder (Added a sample file)
 
 
-3. Run the PySpark Job
+3. Run requirements.txt to install required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the PySpark Job
 
     This job can accept timeseries window parameter ("15 minutes", "12 hours", "24 hours" etc), if nothing is passed, it assumes window size of "24 hours"
 
